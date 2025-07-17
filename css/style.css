@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #7E7E7E;
+}
+
+main {
+    width: 35%;
+}
+
+.my-7 {
+    margin: 7rem 0;
+}
+
+.my-10 {
+    margin: 100px 0;
+}
+
+.s-card {
+    height: 250px;
+    width: 250px;
+    background-color: #F9F9FC;
+}
+
+.f-end {
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    }
