@@ -10,6 +10,26 @@ main {
     width: 35%;
 }
 
+.hero-img {
+    object-fit: cover;
+    object-position: 80% 50%;
+}
+
+.hero-text {
+    margin-top: 300px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hero-text {
+        margin-top: 200px;
+    }
+}
+
 .my-7 {
     margin: 7rem 0;
 }
@@ -28,4 +48,4 @@ main {
     height: 50px;
     width: 100%;
     background-color: #000;
-    }
+}

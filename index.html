@@ -18,7 +18,7 @@
                 <div class="logo col-11">
                     <img src="./asset/images/01.jpg" alt="">
                 </div>
-                <ul class="col-1 d-flex list-unstyled align-items-center">
+                <ul class="col-1 d-none d-lg-flex list-unstyled align-items-center">
                     <li class="px-4"><a href="" class="text-decoration-none fw-bold" style="color:#1473E6">Home</a></li>
                     <li class="px-4"><a href="" class="text-decoration-none fw-bold">About</a></li>
                     <li class="px-4"><a href="" class="text-decoration-none fw-bold">Service</a></li>
@@ -31,7 +31,7 @@
             </nav>
 
             <!-- Hero Section Start -->
-            <main class=" row flex-column align-items-center position-absolute z-1" style="margin-top: 300px;">
+            <main class=" row flex-column align-items-center position-absolute z-1 hero-text">
                 <div class="col">
                     <h1 class="text-black fs-1 fw-bold">Building digital <br> produts, brands <u
                             class="text-primary d-block ">experience.</u></h1>
@@ -46,14 +46,14 @@
                 </div>
             </main>
         </div>
-        <img src="./asset/images/02.jpg" alt="" class="img-fluid position-relative">
+        <img src="./asset/images/02.jpg" alt="" class="hero-img img-fluid position-relative vh-100 w-100">
     </header>
 
     <!-- AboutUs Section Satrt -->
     <section class="">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="row align-items-center flex-wrap">
+                <div class="col-md-6 col-auto">
                     <img src="./asset/images/03.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-auto px-5 d-flex flex-column w-50">
@@ -122,12 +122,12 @@
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
             </div>
             <div class="row g-4">
-                <div class="col-6"><img src="./asset/images/04.jpg" alt="" class="img-fluid m-2"></div>
-                <div class="col-6"><img src="./asset/images/05.jpg" alt="" class="img-fluid m-2"></div>
-                <div class="col-6"><img src="./asset/images/06.jpg" alt="" class="img-fluid m-2"></div>
-                <div class="col-6"><img src="./asset/images/07.jpg" alt="" class="img-fluid m-2"></div>
-                <div class="col-6"><img src="./asset/images/08.jpg" alt="" class="img-fluid m-2"></div>
-                <div class="col-6"><img src="./asset/images/09.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/04.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/05.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/06.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/07.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/08.jpg" alt="" class="img-fluid m-2"></div>
+                <div class="col-lg-6"><img src="./asset/images/09.jpg" alt="" class="img-fluid m-2"></div>
             </div>
         </div>
     </section>
@@ -159,21 +159,21 @@
                     nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
             </div>
             <div class="row">
-                <div class="card col border-0">
+                <div class="card col-lg-auto col-md-6 border-0">
                     <img src="./asset/images/10.jpg" alt="" class="card-img">
                     <div class="card-img-overlay text-light px-5 d-flex flex-column-reverse">
                         <p class="fs-5 card-text">World’s most famous <br> developers and designers</p>
                         <span class="text-secondary card-title">July 01, 2021</span>
                     </div>
                 </div>
-                <div class="card col border-0">
+                <div class="card col-lg-auto col-md-6 border-0 d-none d-md-flex">
                     <img src="./asset/images/11.jpg" alt="" class="card-img">
                     <div class="card-img-overlay text-light px-5 d-flex flex-column-reverse">
                         <p class="fs-5 card-text">Learn About Wireframes Before <br> Hiring a Web Developer</p>
                         <span class="text-secondary card-title">July 22, 2021</span>
                     </div>
                 </div>
-                <div class="card col border-0">
+                <div class="card col-lg-auto col-md-6 border-0 d-none d-lg-flex">
                     <img src="./asset/images/12.jpg" alt="" class="card-img">
                     <div class="card-img-overlay text-light px-5 d-flex flex-column-reverse">
                         <p class=" fs-5 card-text">7 Ways to Optimize Your <br> WordPress Website</p>
@@ -197,8 +197,8 @@
     <!-- Footer Section Start -->
     <footer class="my-10 py-5">
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row flex-wrap">
+                <div class="col-auto">
                     <h2 class="fw-bold text-black">Let's discuss <br> your project</h2>
                     <ul class="list-unstyled pt-4">
                         <li class="py-2"><span><img src="./asset/icons/icon_7.svg" alt="" height="20px" class="px-2">+44
@@ -210,7 +210,7 @@
                                 Asutralia</span></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-auto">
                     <p class="text-secondary fs-5 fw-bold m-0">I'm always open to discussing product</p>
                     <p class="text-black fs-5 fw-bold">design work or partnerships.</p>
                     <div class="row">
@@ -218,11 +218,11 @@
                             <label for="name" class="pt-3">Name*</label>
                             <input type="text" class="border-0 border-top border-secondary col-12">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <label for="email" class="pt-3">Email*</label>
                             <input type="email" class="border-0 border-top border-secondary col-12 ">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <label for="sub" class="pt-3">Subject*</label>
                             <input type="text" class="border-0 border-top border-secondary col-12">
                         </div>
